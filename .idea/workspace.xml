@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ff409fe-a5b5-412c-83d4-8f51680d922c" name="Changes" comment="Add dataset files">
-      <change beforePath="$PROJECT_DIR$/SQL.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/SQL.ipynb" afterDir="false" />
-    </list>
+    <list default="true" id="8ff409fe-a5b5-412c-83d4-8f51680d922c" name="Changes" comment="Add dataset files" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,6 +31,11 @@
         </map>
       </branch-storage>
     </excluded-from-favorite>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feauture/MySQL_integration" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -59,7 +62,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feauture/MySQL__integration",
+    "git-widget-placeholder": "feature/Power__BI",
     "last_opened_file_path": "C:/Users/user/PycharmProjects/ETLproject",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
@@ -184,7 +187,47 @@
       <option name="project" value="LOCAL" />
       <updated>1730011992410</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Add dataset files">
+      <option name="closed" value="true" />
+      <created>1730044401895</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1730044401895</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Add dataset files">
+      <option name="closed" value="true" />
+      <created>1730049784736</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1730049784736</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Add dataset files">
+      <option name="closed" value="true" />
+      <created>1730050027761</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1730050027761</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Add dataset files">
+      <option name="closed" value="true" />
+      <created>1730051777082</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1730051777082</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Add dataset files">
+      <option name="closed" value="true" />
+      <created>1730061383062</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1730061383062</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

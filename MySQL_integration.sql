@@ -1,4 +1,4 @@
-CREATE DATABASE amazon;
+juCREATE DATABASE amazon;
 
 use amazon;
 
