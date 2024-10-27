@@ -92,3 +92,35 @@ SELECT
     AVG(rating) AS avg_rating
 FROM amazon_data
 GROUP BY discount_status;
+
+#14 Top Products by Rating in Each Category
+SELECT p.category,
+       p.product_name,
+       MAX(r.rating) AS max_rating
+FROM products p
+JOIN reviews r ON p.product_id = r.product_id
+GROUP BY p.category, p.product_name
+ORDER BY max_rating DESC;
+
+#15. Average Price and Rating per Category with Product Count
+SELECT category1,
+       AVG(actual_price) AS avg_price,
+       AVG(rating) AS avg_rating,
+       COUNT(product_id) AS product_count
+FROM amazon_data
+GROUP BY category1
+HAVING avg_rating > 4.0
+ORDER BY avg_rating DESC;
+
+#16. Products with Lower-than-Average Ratings per Category
+SELECT t1.product_name,
+       t1.category1,
+       t1.rating AS product_rating,
+       t2.avg_category_rating
+FROM amazon_data t1
+JOIN (SELECT category1, AVG(rating) AS avg_category_rating
+      FROM amazon_data
+      GROUP BY category1) t2
+ON t1.category1 = t2.category1
+WHERE t1.rating < t2.avg_category_rating
+ORDER BY t1.category1, product_rating;
