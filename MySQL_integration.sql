@@ -26,3 +26,4 @@ CREATE TABLE amazon_data(
 drop table amazon_data;
 SELECT * FROM amazon_data;
 select count(*) from amazon_data;
+
