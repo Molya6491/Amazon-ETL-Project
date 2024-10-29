@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ff409fe-a5b5-412c-83d4-8f51680d922c" name="Changes" comment="Add dataset files">
-      <change beforePath="$PROJECT_DIR$/SQL.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/SQL.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +59,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feauture/MySQL__integration",
+    "git-widget-placeholder": "master",
     "last_opened_file_path": "C:/Users/user/PycharmProjects/ETLproject",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
